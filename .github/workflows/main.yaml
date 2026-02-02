@@ -36,7 +36,7 @@ jobs:
 
       # Step 5: Build Docker image
       - name: Build Docker Image
-        run: docker build -t loftylizard:latest .
+        run: docker build -t cpdevopsint/loftylizard:latest .
 
       # Step 6: Optional: Log in to Docker Hub and push Docker image
       # Uncomment these steps if you want to push the Docker image to Docker Hub
